@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Anniversary | By Darshan Yadav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxobJTAhN7EgOaAuo6kVrzP3686QHAqutLQ&usqp=CAU">
+</head>
+<body>
+    <h1> Happy Marriage Anniversary  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAMA MAMI Ji </h1>
+    
+
+
+
+
+
+
+
+    <div class="cake">
+  <div class="tops">
+    <div class="cherry"></div>
+    <div class="icing"></div>
+    <div class="candle"></div>
+    <div class="flame">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="8.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="1.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="2.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="3.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="4.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="5.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="6.jpeg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="7.jpeg">
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span> 
+            </div>
+    </div>
+    
+  </div>
+
+  <div class="flat"></div>
+
+  <div class="flat-1"></div>
+  <div class="drip">
+
+    <div class="drip drip-1"></div>
+    <div class="drip drip-2"></div>
+    <div class="drip drip-3"></div>
+    <div class="drip drip-4"></div>
+    <div class="drip drip-5"></div>
+    <div class="drip drip-6"></div>
+  </div>
+  <div class="body"></div>
+  <div class="plate"></div>
+
+
+    <footer>
+    <p>&#x3c; &#47; &#x3e; with ❤️ by 
+        <a href="https://darshan-star.github.io/my-portfolio/">Darshan Yadav</a>
+          <br> 
+          <a href="https://www.linkedin.com/in/darshan-yadav-9496b0201/">Join on LinkedIn</a>
+    </p>
+    </footer>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
